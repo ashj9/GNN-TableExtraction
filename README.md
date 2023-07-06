@@ -75,7 +75,7 @@ Into ```run_multiple_train.sh``` you can find some examples of training commands
 For PubLayNet is composed by PDFs and Annotations. The following files are accessibe from: 
 - PDF of document pages in `PubLayNet` are accessible [here](https://dax-cdn.cdn.appdomain.cloud/dax-publaynet/1.0.0/PubLayNet_PDF.tar.gz).
 - Annotations (labels) are available [here](https://dax-cdn.cdn.appdomain.cloud/dax-publaynet/1.0.0/labels.tar.gz?_ga=2.252263497.1911140011.1644402271-566577787.1643567867); a file `labels.tar` composed by `train.json` and `val.json` is downloaded.
-
+For the test annotations: test.json, please visit https://github.com/ibm-aur-nlp/PubLayNet/tree/master/ICDAR_SLR_competition 
 Save `PDFs` in `/DATA/pdfs/` while `Annotations` in `DATA/annotations/`
 
 ## Pubtables-1M
