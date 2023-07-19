@@ -22,25 +22,25 @@ python src/data/datasets_download.py
 ```
 Make sure you have updated the config/tables.yaml and config/graph/empty.yaml before you start building tables and graphs.
 
-**python src/data/tables_creation.py **
+python src/data/tables_creation.py 
 It will create a few directories:
 data/interim/dicts
 data/interim/tables
 
-**python src/data/tables_processing.py**
+python src/data/tables_processing.py
 It will create following directories:
 data/interim/preprocess
 data/interim/trains
 
-**python src/data/graphs_creation.py**
+python src/data/graphs_creation.py
 ``` 
 - [ ] Build graph features and save them
 ```
-**python src/features/features_build.py**
+python src/features/features_build.py
 ```
 - [ ] Then train the model
 ```
-**python src/models/model_train.py**
+python src/models/model_train.py
 ```
 
 Into ```run_multiple_train.sh``` you can find some examples of training commands to be used: complete documentations inside .yaml files in ```configs```.
